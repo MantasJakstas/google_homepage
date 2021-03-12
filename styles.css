@@ -1,0 +1,180 @@
+html {
+  height: 100vh;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #222;
+  background: #fff;
+}
+li {
+  display: inline;
+}
+.container {
+  display: block;
+}
+a:hover {
+  text-decoration: underline;
+}
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  padding: 8px;
+}
+.apps {
+  line-height: normal;
+  color: #5f6368;
+  opacity: 1;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+.Prisijungti {
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 9px 23px;
+  color: #fff;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.container2 {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+}
+.google {
+  display: flex;
+}
+nav {
+  display: block;
+  text-align: center;
+  float: right;
+  padding: 6px;
+}
+input {
+  position: relative;
+
+  top: 8%;
+  background-color: transparent;
+  border: none;
+  width: 75%;
+  height: 34px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+}
+.input {
+  max-width: 584px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  padding: 5px 8px 0 16px;
+}
+.input-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+.fa-search {
+  display: flex;
+
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+.right {
+  width: 18%;
+  display: flex;
+  position: relative;
+  bottom: 3%;
+}
+.fa-keyboard {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 6px;
+  padding-right: 8px;
+  padding-left: 20px;
+  width: 40px;
+  line-height: 44px;
+  font-size: 18px;
+}
+.fa-microphone {
+  font-size: 18px;
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+.mygtukai-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+.paieska {
+  width: 6%;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.man-sekasi {
+  width: 6%;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  user-select: none;
+}
