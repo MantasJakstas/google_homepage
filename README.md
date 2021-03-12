@@ -1,2 +1,2 @@
 # google_homepage
-First attemp at recreating google homepage
+First attempt at recreating google homepage
